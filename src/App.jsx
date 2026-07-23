@@ -12,6 +12,14 @@ function App() {
       <button onClick={() => setCount(count + 1)}>+</button>
     </div>
   );
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <h1>Welcome to React</h1>
+    </>
+  )
 }
 
 export default App;
