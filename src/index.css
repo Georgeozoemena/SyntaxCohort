@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter {
+  width: 400px;
+  height: 250px;
+  background-color: rgb(29, 146, 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  button {
+    padding: 5px 50px;
+    border-radius: 20px;
+    font-size: 40px;
+  }
+}
